@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: url("img/stars.png") no-repeat center/cover;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    padding-top: 20px;
+    padding-right: 25px;
+}
+
+.navbar-menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.material-icons{
+    color:white;
+    background-color: none;
+}
+
+.navbar-menu__item {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    background-color: #689F38;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+/* Logo */
+
+.logo {
+   width: 500px;
+   height: 200px;
+   margin: 0 auto;
+   background-color: #1C2238;
+   border-radius: 16px;
+   margin-top: 71px;
+}
+
+
+/* Search */
+
+.search {
+    position: relative;
+    width: 600px;
+    height: 50px;
+    margin: auto;
+    margin-top: 23px;
+}
+
+.search-input {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    outline:none;
+    border: 1px solid #DFE1E5;
+    padding-left: 50px;
+    font-size: 15px;
+}
+
+.search::before {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    content: '';
+    display: block;
+    margin: 15px 18px;
+    background-image: url('img/icons/search.png');
+    background-repeat: no-repeat;
+}
+
+.search-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 13px;
+    right: 18px;
+}
+
+/* Shortcut */
+
+.shortcut-container {
+  margin-top: 30px;
+  margin-right: 34px;
+}
+
+.shortcut {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.shortcut-item {
+    width: 120px;
+    height: 125px;
+}
+
+.shortcut-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.shortcut-link:hover {
+  background-color: rgb(128, 128, 128);
+  border-radius: 10px;
+  opacity: 0.6;
+}
+
+.shortcut-content__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shortcut-img__container {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 13px;
+}
+
+.shortcut-title {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.shortcut-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.more {
+    position:absolute;
+    bottom: 90px;
+    left: 85px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: none;
+    display: none;
+}
+
+.more-img {
+    width: 100%;
+    margin: auto;
+    height: 20px;
+}
+
+.shortcut-link:hover>button {
+    display: block;
+}
+
+
+.more:hover {
+    background-color:dimgray;
+}
+
