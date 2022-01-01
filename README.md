@@ -2,7 +2,7 @@
 
 ### 구글 메인 페이지
 
-- [구글 마크업](https://gureumwoon.github.io/publishing-study/google/google.html)
+- [구글 메인페이지 클론](https://gureumwoon.github.io/publishing-study/google/google.html)
 
 
 ### 네이버 마크업
