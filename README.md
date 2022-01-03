@@ -17,4 +17,4 @@
 
 ### radio & checkbox change to button
 
--[choose](https://gureumwoon.github.io/publishing-study/button/button.html)
+- [choose](https://gureumwoon.github.io/publishing-study/button/button.html)
