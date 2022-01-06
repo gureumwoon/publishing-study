@@ -18,3 +18,6 @@
 ### radio & checkbox change to button
 
 - [choose](https://gureumwoon.github.io/publishing-study/button/button.html)
+
+### Modal
+- [modal](https://gureumwoon.github.io/publishing-study/modal/modal.html)
