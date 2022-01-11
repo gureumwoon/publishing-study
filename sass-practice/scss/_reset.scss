@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+mark{
+    background-color: transparent;
+    color: inherit;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: inherit;
+}
+
+h1,h2,h3,h4,h5,h6,b,th {
+    font-weight: inherit;
+}
+
+i,em,address {
+    font-style: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ul, ol, li,
+fieldset, blockquote
+{
+    margin: 0;
+    padding: 0;
+}
+
+blockquote{
+    margin: 0;
+}
+
+ul,ol,li {
+    list-style: none;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid red;
+}
+
+fieldset {
+    border: none; /* border:0 */ 
+    // border: width style color
+}
+
+input[type="text"]::placeholder{
+    color: olive;
+    font-style: italic;
+}
+
+input[type="text"]:focus{
+    background-color: olive;
+    color: #fff;
+}
+
+input[type="search"] {
+
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]+label::before {
+    content: '';
+    display: block;
+    background: url('https://static.nid.naver.com/images/ui/myinfo/pc_check_off_24.png') no-repeat 0 0;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+input[type=checkbox]+label:hover::before{
+    content: '';
+    display: block;
+    background: url('https://static.nid.naver.com/images/ui/myinfo/pc_check_on_l_24.png') no-repeat ;
+    width: 24px;
+    height: 24px;
+}
+
+input[type="radio"] {
+
+}
+
+button {
+    cursor: pointer;
+}
+
+.blind, hr, legend {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+q:before, 
+q:after {
+    content: '';
+}
