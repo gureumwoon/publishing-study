@@ -1,0 +1,50 @@
+.main {
+    color:white;
+    background: url('../img/background.jpg') no-repeat center;
+    height: 100vh;
+    article {
+        position: relative;
+        top: 50%;
+        transform: translateY(-60%);
+        display: flex;
+        justify-content: space-between;
+        padding: 0 80px;
+        aside
+                {
+            margin-left: 68px;
+            transform: rotate(-90deg);
+            button {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 500;
+                font-size: 18px;
+                margin-left: 15px;
+            }
+        }
+    div {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        .company-txt {
+            font-size: 86px;
+            font-weight: bold;
+        }
+        .company-info-txt {
+            font-size: 19px;
+            margin-top: 34px;
+        }
+    }
+    }
+    .sns-container {
+        padding-left: 80px;
+        position: absolute;
+        bottom: 80px;
+        display: flex;
+        img {
+            width: 14px;
+            height: 16px;
+            margin-right: 40px;
+        }
+    }
+}

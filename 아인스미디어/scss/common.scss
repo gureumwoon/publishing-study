@@ -1,15 +1,19 @@
 @charset "utf-8";
 
-@import 'reset';
+@import 'reset','main','section_one','section_two';
 
-section {
+
+.container{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    padding: 62px 68px;
-    background: url('../img/background.jpg') no-repeat center;
-    height: 100vh;
-    color:white;
     .nav-bar {
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 80px;
+        padding-right: 80px;
+        position: fixed;
+        color:white;
+        top:0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -22,54 +26,28 @@ section {
         .company-menu {
             display: flex;
             li {
-                margin-right: 65px;
+                padding-right: 65px;
                 font-size: 18px;
             }
         }
-    }
-    article {
-        position: relative;
-        top: 50%;
-        transform: translateY(-60%);
-        display: flex;
-        justify-content: space-between;
-        aside
-                {
-            margin-left: 68px;
-            transform: rotate(-90deg);
-            button {
-                font-family: 'Montserrat', sans-serif;
-                font-weight: 500;
-                font-size: 18px;
-                margin-left: 15px;
-            }
-        }
-    div {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-        .company-txt {
-            font-size: 86px;
-            font-weight: bold;
-        }
-        .company-info-txt {
-            font-size: 19px;
-            margin-top: 34px;
-        }
-    }
     }
     .indicator {
+        position: fixed;
+        height: 246px;
+        top: 36%;
+        right: 80px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
             a  {
                 display: block;
                 width: 6px;
                 height: 6px;
-                background-color: white;
+                background-color: #e1e1e1;;
                 border-radius: 50%;
+                &.on {
+                    background-color: red;
+                }
             span {
                     display: block;
                     width: 6px;
@@ -79,15 +57,7 @@ section {
             }
         }
     }
-    .sns-container {
-        position: absolute;
-        bottom: 80px;
-        display: flex;
-        img {
-            width: 14px;
-            height: 16px;
-            margin-right: 40px;
-        }
-    }
 }
+
+
 
